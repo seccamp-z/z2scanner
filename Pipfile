@@ -6,10 +6,8 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-yara = "*"
-pyelftools = "*"
 yara-python = "*"
-scikit-learn = "*"
+pyelftools = "*"
 
 [requires]
 python_version = "3.7"

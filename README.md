@@ -5,20 +5,11 @@ z2 scanner
 - python3.7.4
 - venv, pipenv
 
-## Prepare for development
-#### Enter devel environment with venv
-`source devel/bin/activate`
-#### Escape devel environment
-`deactivate`
-
-#### Enter pipenv
-`pipenv shell`
-
-#### Install pip package under under pipenv
-`pipenv install PACKAGE_NAME`
+#### Install pip packages
+`$ pipenv install`
 
 ## Run Test
-python test/test01.py
+`$ pipenv run test/test01.py`
 
 ## Follow upstream
 ```
